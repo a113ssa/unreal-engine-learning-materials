@@ -23,7 +23,7 @@ Properties marked with `UPROPERTY` can be edited in the Unreal Editor. This make
   UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Configuration")
   float MovementSpeed;
   ```
-  [*What are argumets inside UPROPERTY?*](./pointers.md)
+  [*What are argumets inside UPROPERTY?*](./specifiers.md)
 - **Serialization**:
 The reflection system handles the serialization and deserialization of objects. This is crucial for saving and loading game states, as well as for networking.
 **Example**:
