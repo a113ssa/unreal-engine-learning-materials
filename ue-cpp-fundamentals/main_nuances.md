@@ -35,7 +35,7 @@ This macro is essential for enabling reflection, serialization, and other featur
 ### **Actor Lifecycle Methods**
 
 - **Constructor**:
-  - Use `AActor::AActor()` for initializing properties.
+  Use `AActor::AActor()` for initializing properties.
 - **`BeginPlay()`**:
   Called when the game starts or when the actor is spawned. Good for initializing logic.
   ```cpp
